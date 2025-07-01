@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oscar\\Documents\\GitHub\\paswordmanager\\password manager.csproj": {}
+    "C:\\Users\\oscar\\Documents\\GitHub\\paswordmanager\\passwoed manager\\passwoed manager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oscar\\Documents\\GitHub\\paswordmanager\\password manager.csproj": {
+    "C:\\Users\\oscar\\Documents\\GitHub\\paswordmanager\\passwoed manager\\passwoed manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oscar\\Documents\\GitHub\\paswordmanager\\password manager.csproj",
-        "projectName": "password manager",
-        "projectPath": "C:\\Users\\oscar\\Documents\\GitHub\\paswordmanager\\password manager.csproj",
+        "projectUniqueName": "C:\\Users\\oscar\\Documents\\GitHub\\paswordmanager\\passwoed manager\\passwoed manager.csproj",
+        "projectName": "passwoed manager",
+        "projectPath": "C:\\Users\\oscar\\Documents\\GitHub\\paswordmanager\\passwoed manager\\passwoed manager.csproj",
         "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oscar\\Documents\\GitHub\\paswordmanager\\obj\\",
+        "outputPath": "C:\\Users\\oscar\\Documents\\GitHub\\paswordmanager\\passwoed manager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,12 +44,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[6.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
