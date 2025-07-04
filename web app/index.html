@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Password Manager</h1>
+    <label>Website:
+      <input type="text" id="website" />
+    </label>
+    <label>Username:
+      <input type="text" id="username" />
+    </label>
+    <label>Password:
+      <input type="text" id="password" />
+    </label>
+    <button onclick="removePassword()">Remove Password</button>
+    <button onclick="savePassword()">Save Password</button>
+
+    <h2>Saved Passwords</h2>
+    <div id="passwordList"></div>
+  </div>
+ 
+</body>
+</html>
