@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>dashboard</title>
+  <title>Log in </title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="container">
     <h1>Password Manager</h1>>
-    <label>Email:
-      <input type="text" id="username" />
-    </label>
-    <label>Password:
-      <input type="text" id="password" />
-    </label>
-    <button onclick="LogIn()">Log IN</button>
+    
   
   </div>
- 
+ <form method="post">
+      email:
+      <input type="text" name="username" class="username" />
+      password:
+      <input type="password" name="password" class="password" />
+    <input type="submit" value="Log In">
+ </form>
 </body>
 </html>
